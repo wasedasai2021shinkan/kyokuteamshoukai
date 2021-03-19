@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body {
+    background-color: #eaf4fc;
+}
+
+
+.titlephoto {
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+
+h1 {
+    color: #17183B;
+    font-size:50px;
+    text-align: left;
+    font-family: serif;
+    font-weight: medium;
+}
+.wrapper{
+    
+    margin: 0 auto;/*中央揃え*/
+    background-color: #eaf4fc;
+    padding: 10px 0 30px 0;
+    font-family: serif;
+    text-decoration: none;
+   }
+   
+   .outer-box{
+    width: 600px;
+    margin: 0 auto;/*中央揃え*/
+    text-decoration: none;
+   }
+   
+ 
+   
+   p{
+    color: #fff;
+    font-size: 30px;
+    font-family: serif;
+   }
+   
+   .btn-box{
+    width: 600px;
+    margin: 0 auto;
+    text-decoration: none;
+   }
+   .inner-btn-box{
+    display: flex;
+    justify-content: space-between;/*水平方向に均等に分布(端は詰める)*/
+    margin-bottom: 30px;/*それぞれのボタンの下側に空白*/
+    text-decoration: none;
+   }
+
+   .btn{
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;/*角を丸く*/
+    background-color: #068d9d;
+    text-align: center;/*「○○局」をど真ん中に*/
+    border: none;/*この二つ、*/
+    outline: none;/*ボタンの周りが黒くなるから消した、の意*/
+    text-decoration: none;
+    font-family: serif;
+
+   }
+
+   footer {
+    background-color: #78c1cd;
+    text-align: center;
+    padding: 26px 0;
+    text-decoration: none;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: serif;
+}
+.wrapper2 {
+    background-color: #78c1cd;
+}
+
+
+.innerbox {
+    margin-top: 5px;
+    background-color: #78c1cd;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+    margin-top: 5px;
+}
+
