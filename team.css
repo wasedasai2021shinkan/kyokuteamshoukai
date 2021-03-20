@@ -66,6 +66,10 @@ h1 {
 
    }
 
+.btn :hover {
+       opacity: 0.85;
+   }
+
    footer {
     background-color: #78c1cd;
     text-align: center;
